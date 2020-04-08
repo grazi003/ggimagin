@@ -1,1 +1,5 @@
-<h1>Coucou {{ nom }}</h1>
+{% extends 'base.html.twig' %}
+{% block body %}
+    {% block mNav %}{% endblock %}
+    <h1>Coucou {{ nom }}</h1>
+{% endblock %}
